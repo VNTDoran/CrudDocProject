@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CreateEmployeeComponent } from './employee/create-employee/create-employee.component';
 import { CreateCategoryComponent } from './employee/create-category/create-category.component';
+import { CategoryListComponent } from './employee/category-list/category-list.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { EmployeeService } from './service/employee.service';
 import { CategoryService } from './service/category.service';
 import { HttpClientModule } from '@angular/common/http';
 import { EmployeeListComponent } from './employee/employee-list/employee-list.component';
 import { UpdateEmployeeComponent } from './employee/update-employee/update-employee.component';
+import { UpdateCategoryComponent } from './employee/update-category/update-category.component';
 import { DataTablesModule } from 'angular-datatables';
 
 @NgModule({
@@ -20,7 +22,8 @@ import { DataTablesModule } from 'angular-datatables';
     EmployeeListComponent,
     UpdateEmployeeComponent,
     CreateCategoryComponent,
-
+    CategoryListComponent,
+    UpdateCategoryComponent,
   ],
   imports: [
     BrowserModule,

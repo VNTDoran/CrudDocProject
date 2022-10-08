@@ -9,7 +9,7 @@ import { environment } from 'src/environments/environment';
 export class CategoryService {
 
   constructor(private http: HttpClient) { }
-  private baseUrl: string = environment.baseUrl+'/categorie/addCategorie';
+  private baseUrl: string = environment.baseUrl+'/categorie/getAll';
 
   
 

@@ -1,0 +1,12 @@
+<h3>
+  Update Employee
+</h3>
+  <form (ngSubmit)="onSubmit()">
+<div class="form-group">
+  <label for="name">Name</label>
+  <input type="text" class="form-control" id="name" [(ngModel)]="category.nomCategorie" name="name">
+</div>
+<button style='margin-right:16px' class="btn btn-success">Submit</button>
+<button style='margin-right:16px' (click)="list()" class="btn btn-success">Back To Category</button>
+
+</form>
